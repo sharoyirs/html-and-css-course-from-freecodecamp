@@ -1,0 +1,41 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background: rgb(0, 114, 26);
+   background: linear-gradient(
+      90deg,
+      rgba(0, 114, 26, 1) 32%,
+      rgba(255, 255, 255, 1) 51%,
+      rgba(255, 255, 255, 1) 59%,
+      rgba(192, 0, 0, 1) 64%,
+      rgba(255, 255, 255, 1) 69%,
+      rgba(255, 255, 255, 1) 75%,
+      rgba(0, 114, 26, 1) 84%
+   );
+}
+
+div {
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-size: 60px;
+   color: indianred;
+}
+.banner {
+   background: url("./media/coding-pexels.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+}
+.header {
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url();
+}
+
+ 
